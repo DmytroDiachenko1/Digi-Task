@@ -1,0 +1,71 @@
+body {
+   font-size: 3em;
+}
+
+.wrapper {
+   max-width: 1024px;
+   margin:0 auto;
+}
+
+.number-of-shape {
+   display: flex;
+   align-items: center;
+   height: 57px;
+   margin: 20px 0px 20px 0px;
+}
+
+.number-of-shape__number {
+   border: 2px solid black;
+   border-radius: 10px;
+   margin-left: 15px;
+   width: 100px;
+   text-align: center;
+}
+
+.gravity-number {
+   border: 2px solid black;
+   border-radius: 10px;
+   margin-left: 15px;
+   width: 100px;
+   text-align: center;
+}
+
+
+.number-of-shapes {
+   display: flex;
+   align-items: center;
+   justify-content: left;
+   margin-top: 30px;
+}
+
+.increment, .decrement {
+   font-size: 45x;
+   margin-left: 20px;
+   height: 57px;
+   text-align: center;
+}
+
+.gravity {
+   display: flex;
+   justify-content: left;
+   text-align: center;
+   margin-top: 30px;
+   height: 57px;
+}
+
+
+button {
+   font-size: 30px;
+   margin-left: 20px;
+   width: 100px;
+   border: 2px solid black;
+   border-radius: 10px;
+}
+
+.number-of-shapes__number {
+   border: 2px solid black;
+   border-radius: 10px;
+   margin-left: 15px;
+   width: 100px;
+   text-align: center;
+}

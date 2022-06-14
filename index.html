@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Digi-task</title>
+   <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+   <script src="./src/app.js"></script>
+   <script src="https://pixijs.download/release/pixi.js"></script>
+   <div class="wrapper">
+      <div class="number-of-shape">Total shapes: <span class="number-of-shape__number" id="number-of-shapes"></span>
+      </div>
+      <div id="world"></div>
+      <div class="number-of-shapes">Number of shapes <span class="number-of-shapes__number"
+            id="number-of-shapes-per-sec"></span>
+         <button class="decrement" onclick="decrement()">-</button>
+         <button class="increment" onclick="increment()">+</button>
+      </div>
+      <div class="gravity">Gravity: <span class="gravity-number" id="gravity">0.2</span>
+         <button id="slow" onclick="slower()">slow</button>
+         <button id="fast" onclick="faster()">fast</button>
+      </div>
+   </div>
+</body>
+
+</html>
