@@ -10,7 +10,7 @@ body {
 .number-of-shape {
    display: flex;
    align-items: center;
-   height: 57px;
+   height: 55px;
    margin: 20px 0px 20px 0px;
 }
 
@@ -39,9 +39,9 @@ body {
 }
 
 .increment, .decrement {
-   font-size: 45x;
+   font-size: 45px;
    margin-left: 20px;
-   height: 57px;
+   height: 55px;
    text-align: center;
 }
 
@@ -50,9 +50,8 @@ body {
    justify-content: left;
    text-align: center;
    margin-top: 30px;
-   height: 57px;
+   height: 55px;
 }
-
 
 button {
    font-size: 30px;
